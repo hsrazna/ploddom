@@ -36,11 +36,20 @@
 <body>
 
 	<?php require_once "include/header.php"; ?>
-	<div class="col-xs-12">
-	<?php require_once "include/slider.php"; ?>
-	</div>
-	<div class="col-xs-12">
-	<?php require_once "include/main-catalog.php"; ?>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-lg-push-3">
+				<?php require_once "include/slider.php"; ?>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+			<?php require_once "include/sidebar.php"; ?>
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
+			<?php require_once "include/main-catalog.php"; ?>
+			</div>
+		</div>
 	</div>
 	<?php require_once "include/news.php"; ?>
 	<?php require_once "include/testimonials.php"; ?>
