@@ -36,8 +36,12 @@
 <body>
 
 	<?php require_once "include/header.php"; ?>
+	<div class="col-xs-12">
 	<?php require_once "include/slider.php"; ?>
+	</div>
+	<div class="col-xs-12">
 	<?php require_once "include/main-catalog.php"; ?>
+	</div>
 	<?php require_once "include/news.php"; ?>
 	<?php require_once "include/testimonials.php"; ?>
 	<?php require_once "include/footer.php"; ?>
