@@ -24,24 +24,11 @@ $(function() {
 				$(this).next('ul').slideUp(300);
 				return false;
 			}
-		} //else if (window.matchMedia( "(min-width: 768px)" ).matches && window.matchMedia( "(max-width: 1200px)" ).matches){
-      //     if($(this).hasClass('active')){
-      //         $(this).removeClass('active');
-      //         return false;
-      //     } else {
-      //         $('.az-menu>li>a').removeClass('active');
-      //         $(this).addClass('active');
-      //         if($(this).next('ul').length>0){
-      //           return false;
-      //         }
-      //     }
-      // } else{
-      //   if($(this).next('ul').length>0){
-      //     return false;
-      //   }
-      // }
-      // return false;
+		}
 	});
+
 	$('.az-menu').after('<ul id="desktop-menu" class="sf-menu">').children().clone().appendTo("#desktop-menu");//.superfish();
+	$('ul.sf-menu').find("ul i").removeClass("fa-angle-down").addClass("fa-angle-right");
 	$('ul.sf-menu').superfish();
+
 });

@@ -9,7 +9,7 @@
 								<a href="#" class="az-co">Меню</a>
 								<ul class="az-menu">
 									<li>
-										<a href="#">Каталог товаров <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+										<a href="#">Каталог<span class="hidden-sm"> товаров</span> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 										<ul>
 											<li>
 												<a href="#">Плодовые <i class="fa fa-angle-down" aria-hidden="true"></i></a>
