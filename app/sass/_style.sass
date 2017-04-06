@@ -3,3 +3,68 @@
 @import "libs"
 @import "vars"
 
+*
+	border: 0
+	margin: 0
+	padding: 0
+
+$az-green: #6aac1c
+$az-cyan: #007e46
+
+body
+	/**/
+
+li
+	list-style-type: none
+
+.az-menu-cart
+	font-size: 0
+	height: 30px
+	background: $az-green
+	line-height: 30px
+
+.az-co
+	padding-left: 27px
+	background: url(../img/az-co.png) no-repeat center left
+	font-size: 14px
+	vertical-align: middle
+	color: #fff
+	text-transform: uppercase
+	font-family: "ArimoBold"
+	letter-spacing: 0.15em
+	text-decoration: none
+	&:hover, &:active, &:focus
+		color: #fff
+		text-decoration: none
+
+.az-menu
+	background: $az-green
+	border-top: 1px solid #fff
+	display: none
+	position: absolute
+	top: 100%
+	left: 0px
+	z-index: 3
+	padding: 10px 0
+	li
+		a
+			line-height: 20px
+			color: #fff
+			font-size: 14px
+			padding: 0 10px
+			font-family: "ArimoBold"
+			text-transform: uppercase
+			text-decoration: none
+			width: 100%
+			display: inline-block
+			&:hover, &:active, &:focus
+				color: #fff
+				text-decoration: none
+		li
+			a
+				padding: 0 10px 0 20px
+			li
+				a
+					padding: 0 10px 0 30px
+	ul
+		display: none
