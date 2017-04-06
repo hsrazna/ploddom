@@ -7,12 +7,16 @@
 	border: 0
 	margin: 0
 	padding: 0
+	outline: none
 
 $az-green: #6aac1c
 $az-cyan: #007e46
 
 body
 	/**/
+
+a, a:focus, a:hover, a:active, input
+	outline: none
 
 li
 	list-style-type: none
@@ -47,8 +51,8 @@ li
 	z-index: 3
 	padding: 10px 0
 	li
+		line-height: 30px
 		a
-			line-height: 20px
 			color: #fff
 			font-size: 14px
 			padding: 0 10px
@@ -57,6 +61,7 @@ li
 			text-decoration: none
 			width: 100%
 			display: inline-block
+			vertical-align: middle
 			&:hover, &:active, &:focus
 				color: #fff
 				text-decoration: none
@@ -64,7 +69,12 @@ li
 			a
 				padding: 0 10px 0 20px
 			li
+				line-height: 24px
 				a
+					font-family: "ArimoRegular"
 					padding: 0 10px 0 30px
 	ul
 		display: none
+
+.sf-menu
+	display: none

@@ -6,6 +6,7 @@ $(function() {
 
 	$('.az-co').click(function(){
 		$(this).toggleClass('az-close').next('.az-menu').slideToggle(300);
+		return false;
 	});
 
 	$('.az-menu a').click(function(){
@@ -14,6 +15,7 @@ $(function() {
 				$(this).parent().siblings("li").each(function(i){
 					if($(this).children('ul').length>0){
 						$(this).children('ul').slideUp(300);
+						$(this).children('a').children("fa").slideUp(300);
 					}
 				});
 				$(this).next('ul').slideDown(300);
@@ -40,4 +42,6 @@ $(function() {
       // }
       // return false;
 	});
+	$('.az-menu').after('<ul id="desktop-menu" class="sf-menu">').children().clone().appendTo("#desktop-menu");//.superfish();
+	$('ul.sf-menu').superfish();
 });
