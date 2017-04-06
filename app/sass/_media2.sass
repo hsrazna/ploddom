@@ -50,6 +50,37 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px)
+	.az-menu, .az-co
+		display: none
+	.sf-menu
+		display: block
+		line-height: 40px
+		a
+			font-size: 13px
+			padding: 0 7px
+			border: 0
+			font-family: "ArimoBold"
+			color: #fff
+			background: $az-green
+			text-transform: uppercase
+			&:hover
+				color: $az-yellow
+		ul i
+			position: absolute
+			vertical-align: middle
+			right: 10px
+			line-height: 40px
+		ul a
+			padding: 0 30px 0 10px !important
+			border-top: 1px solid #fff
+			border-right: 1px solid #fff
+	.sf-arrows .sf-with-ul
+		padding: 0 10px
+	.sf-arrows .sf-with-ul::after
+		display: none
+	.az-menu-cart
+		height: 40px
+		line-height: 40px
 	/**/
 
 /* Medium Devices, Desktops */
@@ -59,6 +90,15 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
+	.az-menu-cart
+		height: 42px
+		line-height: 42px
+	.sf-menu
+		display: block
+		line-height: 42px
+		a
+			padding: 0 10px
+			font-size: 14px
 	/**/
 
 /* Large Devices, Wide Screens */
