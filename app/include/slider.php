@@ -5,6 +5,9 @@
 			<span class="ah-slider-title2">плодовых деревьев</span>
 			<span class="ah-slider-subtitle">для вашего сада</span>
 			<a href="#" class="ah-slider-link">подробнее</a>
+			<div class="ah-slider-imgbox">
+				<img src="img/ah-slider-men.png" alt="men">
+			</div>
 		</div>
 		<div class="clear"></div>
 	</div>
