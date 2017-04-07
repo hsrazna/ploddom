@@ -31,7 +31,7 @@
 				<div class="az-catalog-item">
 					<div class="az-ci-img">
 						<div class="az-ci-img-inner">
-							<img src="img/cat-img2.jpg">
+							<img src="img/cat-img1.jpg">
 						</div>
 					</div>
 					<div class="az-ci-title"><span>слива</span></div>
@@ -44,7 +44,7 @@
 				<div class="az-catalog-item">
 					<div class="az-ci-img">
 						<div class="az-ci-img-inner">
-							<img src="img/cat-img2.jpg">
+							<img src="img/cat-img1.jpg">
 						</div>
 					</div>
 					<div class="az-ci-title"><span>черешня</span></div>
@@ -83,7 +83,7 @@
 				<div class="az-catalog-item">
 					<div class="az-ci-img">
 						<div class="az-ci-img-inner">
-							<img src="img/cat-img2.jpg">
+							<img src="img/cat-img1.jpg">
 						</div>
 					</div>
 					<div class="az-ci-title"><span>Ягодные</span></div>
@@ -121,6 +121,83 @@
 		</div>
 		<div class="az-ak-right">
 			<a href="#">подробнее</a>
+		</div>
+	</div>
+</section>
+<section class="az-popular">
+	<h2><span>Самое популярное</span></h2>
+	<div class="az-popular-wrap">
+		<div class="az-pw-col">
+			<div class="az-pw-item">
+				<div class="az-pw-item-img-box">
+					<img src="img/cat-img2.jpg" alt="популярное">
+				</div>
+				<div class="az-pw-item-title">Яблоня</div>
+				<div class="az-pw-item-text">Вологодское зимнее</div>
+				<div class="az-pw-item-text2">Размер: 130 - 150 см.</div>
+				<div class="az-pw-item-price">от <strong>350</strong> руб.</div>
+				<div class="az-pw-item-buy"><a href="#">в корзину</a></div>
+			</div>
+		</div>
+		<div class="az-pw-col">
+			<div class="az-pw-item">
+				<div class="az-pw-item-img-box">
+					<img src="img/cat-img2.jpg" alt="популярное">
+				</div>
+				<div class="az-pw-item-title">Яблоня</div>
+				<div class="az-pw-item-text">Вологодское зимнее</div>
+				<div class="az-pw-item-text2">Размер: 130 - 150 см.</div>
+				<div class="az-pw-item-price">от <strong>350</strong> руб.</div>
+				<div class="az-pw-item-buy"><a href="#">в корзину</a></div>
+			</div>
+		</div>
+		<div class="az-pw-col">
+			<div class="az-pw-item">
+				<div class="az-pw-item-img-box">
+					<img src="img/cat-img2.jpg" alt="популярное">
+				</div>
+				<div class="az-pw-item-title">Яблоня</div>
+				<div class="az-pw-item-text">Вологодское зимнее</div>
+				<div class="az-pw-item-text2">Размер: 130 - 150 см.</div>
+				<div class="az-pw-item-price">от <strong>350</strong> руб.</div>
+				<div class="az-pw-item-buy"><a href="#">в корзину</a></div>
+			</div>
+		</div>
+		<div class="az-pw-col">
+			<div class="az-pw-item">
+				<div class="az-pw-item-img-box">
+					<img src="img/cat-img2.jpg" alt="популярное">
+				</div>
+				<div class="az-pw-item-title">Яблоня</div>
+				<div class="az-pw-item-text">Вологодское зимнее</div>
+				<div class="az-pw-item-text2">Размер: 130 - 150 см.</div>
+				<div class="az-pw-item-price">от <strong>350</strong> руб.</div>
+				<div class="az-pw-item-buy"><a href="#">в корзину</a></div>
+			</div>
+		</div>
+		<div class="az-pw-col">
+			<div class="az-pw-item">
+				<div class="az-pw-item-img-box">
+					<img src="img/cat-img2.jpg" alt="популярное">
+				</div>
+				<div class="az-pw-item-title">Яблоня</div>
+				<div class="az-pw-item-text">Вологодское зимнее</div>
+				<div class="az-pw-item-text2">Размер: 130 - 150 см.</div>
+				<div class="az-pw-item-price">от <strong>350</strong> руб.</div>
+				<div class="az-pw-item-buy"><a href="#">в корзину</a></div>
+			</div>
+		</div>
+		<div class="az-pw-col">
+			<div class="az-pw-item">
+				<div class="az-pw-item-img-box">
+					<img src="img/cat-img2.jpg" alt="популярное">
+				</div>
+				<div class="az-pw-item-title">Яблоня</div>
+				<div class="az-pw-item-text">Вологодское зимнее</div>
+				<div class="az-pw-item-text2">Размер: 130 - 150 см.</div>
+				<div class="az-pw-item-price">от <strong>350</strong> руб.</div>
+				<div class="az-pw-item-buy"><a href="#">в корзину</a></div>
+			</div>
 		</div>
 	</div>
 </section>
