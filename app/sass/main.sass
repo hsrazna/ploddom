@@ -9,6 +9,57 @@
 
 .clear
 	clear: both
+.ah-menu-list
+	>li
+		position: relative
+		display: block
+		border-top: 1px solid #d6d6d6
+		// border-bottom: 1px solid #d6d6d6
+		padding-top: 1px
+		padding-bottom: 1px
+		margin-bottom: 1px
+		&:first-child
+			border-top: none
+		&::before
+			position: absolute
+			content: ""
+			background: #6aac1c
+			width: 5px
+			height: 40px
+			left: 0px
+			top: 0px
+.ah-submenu-list
+	// display: none
+	li
+		display: block
+		padding-left: 20px
+.ah-submenu-list_item-link
+	display: block
+	font-family: "ArimoRegular"
+	font-size: 18px
+	line-height: 28px
+	color: #000
+	text-transform: none
+	text-decoration: underline
+	&:hover, &:focus
+		color: #6aac1c
+		text-decoration: underline
+.ah-menu-listitem-link
+	display: block
+	padding: 7px 0px 7px 20px
+	font-family: "ArimoBold"
+	font-size: 18px
+	color: #6aac1c
+	line-height: 24px
+	text-transform: uppercase
+	background: #eaeaea
+	border-bottom: 1px solid #d6d6d6
+	&:hover, &:focus
+		color: #6aac1c
+.ah-sidebar
+	background: #f7f7f7
+	padding-bottom: 7px
+	border-radius: 0 0 6px 6px
 .ah-slider
 	width: 100%
 	overflow: hidden

@@ -8,6 +8,12 @@ $(function() {
 	    navText:['<span class="ah-arrow-r"></span>','<span class="ah-arrow-l"></span>']
 	});
 
+	$('.ah-menu-list li').click(function(){
+		$(this).find('.ah-submenu-list').slideToggle(500);
+
+		return false;
+	});
+
 
 });
 
