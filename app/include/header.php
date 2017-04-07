@@ -132,6 +132,24 @@
 								</ul>
 							</nav>
 						</div>
+						<div class="pull-right">
+							<a href="tel:89116126363" class="az-phone-mobile hidden-sm hidden-md hidden-lg">тел.</a>
+							<a href="#">
+								<div class="az-cart">
+									<div class="az-cart-inner">
+										<span class="az-cart1">корзина</span>
+										<span class="az-cart6 hidden-xs hidden-sm hidden-md">Корзина:</span>
+										<span class="az-cart2 hidden-xs">12</span>
+										<div class="az-cart3 hidden-xs">
+											<div class="az-cart3-inner">
+												<div class="az-cart4">14 790 руб.</div>
+												<div class="az-cart5">Оформить заказ</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
