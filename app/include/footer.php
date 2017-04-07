@@ -300,7 +300,7 @@
 		</li>
 	</ul>
 </section>
-<section class="ah-footer-all hidden-sm hidden-xs">
+<section class="ah-footer-all hidden-xs">
     <div class="container">
     	<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
