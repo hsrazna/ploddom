@@ -371,7 +371,7 @@
 	</div>
 </section>
 <section class="ah-footer-bottom hidden-xs hidden-sm">
-	<span class="ah-footbottom-span">Copyright © 2016 «ПлодовыйДом.РФ»  Саженцы плодовых растений. Все права защищены.</span>
+	<span class="ah-footbottom-span">Copyright © 2016 «ПлодовыйДом.РФ»<br class="hidden-lg hidden-md">  Саженцы плодовых растений. Все права защищены.</span>
 </section>
 <section class="ah-footer-all1 hidden-lg hidden-md hidden-xs">
     <div class="container">
@@ -405,7 +405,7 @@
 	</div>
 </section>
 <section class="ah-footer-bottom hidden-lg hidden-md hidden-xs">
-	<span class="ah-footbottom-span">Copyright © 2016 «ПлодовыйДом.РФ»  Саженцы плодовых растений. Все права защищены.</span>
+	<span class="ah-footbottom-span">Copyright © 2016 «ПлодовыйДом.РФ»<br class="hidden-lg hidden-md">  Саженцы плодовых растений. Все права защищены.</span>
 </section>
 <section class="ah-footer-all2 hidden-lg hidden-md hidden-sm">
     <div class="container">
@@ -463,7 +463,7 @@
 	</div>
 </section>
 <section class="ah-footer-bottom hidden-lg hidden-md hidden-sm">
-	<span class="ah-footbottom-span">Copyright © 2016 «ПлодовыйДом.РФ»  Саженцы плодовых растений. Все права защищены.</span>
+	<span class="ah-footbottom-span">Copyright © 2016 «ПлодовыйДом.РФ»<br class="hidden-lg hidden-md">  Саженцы плодовых растений. Все права защищены.</span>
 </section>
 
 

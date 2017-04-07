@@ -14,5 +14,11 @@ $(function() {
 		return false;
 	});
 
+	$('.ah-catbutton-list li').click(function(){
+		$(this).find('.ah-menu-list320').slideToggle(500);
+
+		return false;
+	});
+
 
 });
