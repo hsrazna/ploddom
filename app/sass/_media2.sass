@@ -46,6 +46,40 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px)
+	.az-ak-left
+		span
+			font-size: 22px
+
+	.az-ak-middle
+		div
+			max-width: 270px
+			line-height: 24px
+		span
+			&:first-child
+				font-size: 25px
+			&:nth-child(2)
+				font-size: 12px
+				line-height: 12px
+			&:nth-child(3)
+				font-size: 20px
+
+	.az-ak-right
+		a
+			width: 72px
+			height: 22px
+			border-radius: 3px
+			letter-spacing: 0.15em
+			line-height: 22px
+
+	.az-akcia
+		&::before
+			position: absolute
+			top: 2px
+			left: 2px
+			width: calc(100% - 4px)
+			height: calc(100% - 4px)
+			border: 2px solid #fff
+			content: ""
 	/**/
 
 /* Small Devices, Tablets */
@@ -154,6 +188,8 @@
 		.az-ci-link
 			span
 				color: $az-cyan
+
+
 	/**/
 
 /* Medium Devices, Desktops */
@@ -214,6 +250,41 @@
 
 	.az-catalog-col
 		width: 33.33%
+
+	.az-ak-left
+		span
+			font-size: 41px
+
+	.az-ak-middle
+		div
+			max-width: 495px
+			line-height: 40px
+		span
+			&:first-child
+				font-size: 46px
+			&:nth-child(2)
+				font-size: 22px
+				line-height: 22px
+			&:nth-child(3)
+				font-size: 36px
+
+	.az-ak-right
+		a
+			width: 133px
+			height: 40px
+			font-size: 12px
+			border-radius: 5px
+			line-height: 40px
+
+	.az-akcia
+		&::before
+			position: absolute
+			top: 3px
+			left: 3px
+			width: calc(100% - 6px)
+			height: calc(100% - 6px)
+			border: 2px solid #fff
+			content: ""
 	/**/
 
 /* Large Devices, Wide Screens */

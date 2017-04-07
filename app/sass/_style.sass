@@ -332,6 +332,15 @@ li
 	margin-top: 12px
 	position: relative
 	font-size: 0
+	&::before
+		position: absolute
+		top: 1px
+		left: 1px
+		width: calc(100% - 2px)
+		height: calc(100% - 2px)
+		border: 1px solid #fff
+		content: ""
+
 
 .az-ak-left
 	position: absolute
