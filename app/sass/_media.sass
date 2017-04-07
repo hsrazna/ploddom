@@ -39,7 +39,8 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px)
-
+	.ah-foottop-list
+		margin-right: 13px
 	.ah-footer1
 		width: 100%
 		background: #303337
@@ -114,6 +115,13 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
+	.ah-foottop-sublist
+		>li
+			display: block
+			>a
+				font-size: 11px
+	.ah-foottop-list
+		margin-right: 10px
 	.ah-soc-list
 		margin-top: 5px
 		li
@@ -160,6 +168,13 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
+	.ah-foottop-sublist
+		>li
+			display: block
+			>a
+				font-size: 12px
+	.ah-foottop-list
+		margin-right: 37px
 	.ah-soc-list
 		margin-top: 5px
 		li
@@ -202,4 +217,8 @@
 		vertical-align: top
 		padding-left: 40px
 		margin-top: 10px
+	/**/
+@media only screen and (min-width : 1300px)
+	.ah-foottop-list
+		margin-right: 62px
 	/**/
