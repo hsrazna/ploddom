@@ -159,8 +159,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="az-logo">
-						<img src="img/logo.png" alt="плодовый дом">
+					<div class="az-header-bottom-wrap">
+						<div class="az-logo">
+							<img src="img/logo.png" alt="плодовый дом">
+						</div>
+						<div class="az-search">
+							<form action="/">
+								<input type="text" placeholder="Поиск по каталогу:">
+								<input type="submit" value="найти">
+							</form>
+						</div>
+						<div class="az-phones hidden-xs">
+							<a href="tel:+79118126363" class="az-phone">+7 911 <strong>812-63-63</strong></a>
+							<a href="#" class="az-call-back">Заказать обратный звонок</a>
+						</div>
 					</div>
 				</div>
 			</div>

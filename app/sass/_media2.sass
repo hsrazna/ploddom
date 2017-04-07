@@ -94,11 +94,29 @@
 		line-height: 40px
 		.az-cart-inner
 			padding: 0 11px
+			height: 40px
 
 	.az-cart1
 		height: 40px
 		width: 29px
 		background: url(../img/az-cart768.png) no-repeat center
+
+	$az-logo-width: 245px
+	$az-phones-width: 205px
+	$az-pl-width: $az-logo-width + $az-phones-width
+	
+	.az-logo, .az-phones, .az-search
+		display: inline-block
+		vertical-align: top
+	.az-logo
+		width: $az-logo-width
+
+	.az-phones
+		width: $az-phones-width
+
+	.az-search
+		width: calc(100% - #{$az-pl-width})
+
 	/**/
 
 /* Medium Devices, Desktops */
@@ -130,7 +148,7 @@
 	.az-cart2
 		height: 42px
 		padding-top: 4px
-		top: -5px
+		margin-top: -9px
 		margin-left: 8px
 		background: url(../img/az-apple.png) no-repeat center top
 	/**/
