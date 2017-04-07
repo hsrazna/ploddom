@@ -12,6 +12,7 @@
 $az-green: #6aac1c
 $az-cyan: #007e46
 $az-yellow: #ffd200
+$az-orange: #ff8a00
 
 body
 	background: url(../img/az-background.jpg) no-repeat center -520px
@@ -104,7 +105,8 @@ li
 	&:hover
 		.az-cart-inner
 			top: 5px
-
+			.az-cart5
+				text-decoration: none
 
 .az-cart1
 	display: inline-block
@@ -120,7 +122,7 @@ li
 	width: 34px
 	padding-top: 5px
 	position: relative
-	top: -4px
+	margin-top: -8px
 	background: url(../img/az-apple.png) no-repeat center 0
 	font-size: 14px
 	font-family: "ArimoBold"
@@ -152,3 +154,70 @@ li
 	font-family: "ArimoBold"
 	text-transform: uppercase
 	margin-left: 6px
+
+.az-header-bottom
+	font-size: 0
+
+.az-logo
+	padding: 5px 0
+	text-align: center
+	img
+		max-width: 100%
+		width: auto
+
+.az-search
+	position: relative
+	input[type="text"]
+		width: 100%
+		height: 35px
+		border-radius: 5px
+		border: none
+		font-family: "ArimoRegular"
+		font-size: 14px
+		padding: 0 100px 0 35px
+	input[type="submit"]
+		width: 100px
+		position: absolute
+		top: 0
+		right: 0
+		height: 100%
+		border-radius: 5px
+		background: $az-orange
+		color: #fff
+		text-transform: uppercase
+		letter-spacing: 0.15em
+		text-align: center
+		font-size: 14px
+		font-family: "ArimoBold"
+	&::before
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		width: 35px
+		height: 100%
+		display: inline-block
+		z-index: 6
+		background: url(../img/az-search.png) no-repeat center
+		
+.az-phones
+	text-align: right
+
+.az-phone
+	font-size: 24.5px
+	color: #fff
+	line-height: 24.5px
+	font-family: "ArimoRegular"
+	vertical-align: top
+	display: inline-block
+	strong
+		font-family: "ArimoBold"
+
+.az-call-back
+	font-size: 12px
+	line-height: 16px
+	display: inline-block
+	color: #fff
+	font-family: "ArimoRegular"
+	text-decoration: underline
+	vertical-align: top
