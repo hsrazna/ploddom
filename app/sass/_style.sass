@@ -155,7 +155,7 @@ li
 	text-transform: uppercase
 	margin-left: 6px
 
-.az-header-bottom
+.az-header-bottom, .az-header-middle
 	font-size: 0
 
 .az-logo
@@ -211,6 +211,9 @@ li
 	font-family: "ArimoRegular"
 	vertical-align: top
 	display: inline-block
+	&:focus, &:active, &:hover
+		color: #fff
+		text-decoration: none
 	strong
 		font-family: "ArimoBold"
 
@@ -219,6 +222,73 @@ li
 	line-height: 16px
 	display: inline-block
 	color: #fff
-	font-family: "ArimoRegular"
+	font-family: "ArimoItalic"
 	text-decoration: underline
 	vertical-align: top
+	&:focus, &:active
+		color: #fff
+		text-decoration: underline
+	&:hover
+		color: #fff
+		text-decoration: none
+
+.az-hb-item
+	font-family: "ArimoBold"
+	font-size: 11px
+	color: #fff
+	line-height: 15px
+	text-transform: uppercase
+	padding-left: 48px
+	display: inline-block
+	text-align: left
+	&.style1
+		background: url(../img/az-russia.png) no-repeat left center
+	&.style2
+		background: url(../img/az-temperature.png) no-repeat left center
+	&.style3
+		background: url(../img/az-bowl.png) no-repeat left center
+
+.az-hb-col
+	width: 33.33%
+	display: inline-block
+	vertical-align: top
+	text-align: left
+	&:nth-child(2)
+		text-align: center
+	&:last-child
+		text-align: right
+
+.az-catalog
+	font-size: 0
+
+.az-ci-img
+	width: 145px
+	height: 145px
+	border-radius: 50%
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.5) inset
+	overflow: hidden
+	position: relative
+	margin: 0 auto
+	img
+		position: absolute
+		top: -20%
+		left: -20%
+		width: 140%
+		height: auto
+		z-index: -1
+
+.az-ci-title
+	line-height: 22px
+	text-align: center
+	span
+		display: inline-block
+		padding: 5px
+		font-size: 22px
+		text-transform: uppercase
+		font-family: "RobotoCondensedBold"
+		background: $az-green
+
+.az-catalog-col
+	display: inline-block
+	vertical-align: top
+	width: 50%

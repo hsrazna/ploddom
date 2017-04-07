@@ -105,19 +105,19 @@
 	$az-phones-width: 205px
 	$az-pl-width: $az-logo-width + $az-phones-width
 	
-	.az-hb-col1, .az-hb-col2, .az-hb-col3
+	.az-hm-col1, .az-hm-col2, .az-hm-col3
 		display: inline-block
 		vertical-align: top
-	.az-hb-col1
+	.az-hm-col1
 		width: $az-logo-width
 		padding-top: 10px
 
-	.az-hb-col2
+	.az-hm-col2
 		padding: 0 10px 0 15px
 		margin-top: 20px
 		width: calc(100% - #{$az-pl-width})
-		
-	.az-hb-col3
+
+	.az-hm-col3
 		width: $az-phones-width
 
 
@@ -155,6 +155,29 @@
 		margin-top: -9px
 		margin-left: 8px
 		background: url(../img/az-apple.png) no-repeat center top
+
+	$az-logo-width: 280px
+	$az-phones-width: 205px
+	$az-pl-width: $az-logo-width + $az-phones-width
+	
+	.az-hm-col1
+		width: $az-logo-width
+
+	.az-hm-col2
+		width: calc(100% - #{$az-pl-width})
+
+	.az-hm-col3
+		width: $az-phones-width
+
+	.az-hw-wrap
+		padding-right: 10px
+	.az-hb-col
+		&:first-child
+			width: 30%
+		&:nth-child(2)
+			width: 40%
+		&:last-child
+			width: 30%
 	/**/
 
 /* Large Devices, Wide Screens */
