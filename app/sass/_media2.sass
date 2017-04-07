@@ -120,7 +120,40 @@
 	.az-hm-col3
 		width: $az-phones-width
 
+	.az-ci-img
+		width: 218px
+		height: 218px
+		border: 2px solid transparent
+		padding: 2px
 
+	.az-ci-img-inner
+		width: 210px
+		height: 210px
+		border-radius: 50%
+		border: 5px solid transparent
+		overflow: hidden
+
+	.az-catalog-item
+		width: 218px
+		margin: 0 auto 24px
+
+	.az-ci-title
+		bottom: 25px
+
+	.az-catalog-item:hover
+		.az-ci-img, .az-ci-img-inner
+			border-color: $az-cyan
+			position: relative
+		.az-ci-img
+			box-shadow: none
+		.az-ci-img-inner
+			box-shadow: 3px 3px 10px rgba(0,0,0,0.5) inset
+		.az-ci-title
+			span
+				background: $az-cyan
+		.az-ci-link
+			span
+				color: $az-cyan
 	/**/
 
 /* Medium Devices, Desktops */
@@ -178,6 +211,9 @@
 			width: 40%
 		&:last-child
 			width: 30%
+
+	.az-catalog-col
+		width: 33.33%
 	/**/
 
 /* Large Devices, Wide Screens */
