@@ -1,4 +1,306 @@
-<section class="ah-footer-all hidden-xs">
+<section class="ah-footer-top hidden-xs">
+	<ul class="ah-foottop-list hidden-xs">
+		<li>
+			<a href="#">Алыча</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Подарок Санкт Петербургу</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Боярышник</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Боярышник</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Вишня</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шпанка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Волочаевка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Молодежная</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шоколадница</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Горьковская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Свердловчанк</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Алиса</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Огонёк</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Груша</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Северянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Лада</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Медовая</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Чижовская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Есенинская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Киффер</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Москвичка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Нарядная Ефимова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Осенняя, Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Отрадненская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Поздние осенние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Жегалова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Зимние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Бессемянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Ника</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Г-322 Летний сорт</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Павловская Осений сорт</a></li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="ah-foottop-list hidden-xs">
+		<li>
+			<a href="#">Алыча</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Подарок Санкт Петербургу</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Боярышник</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Боярышник</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Вишня</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шпанка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Волочаевка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Молодежная</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шоколадница</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Горьковская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Свердловчанк</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Алиса</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Огонёк</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Груша</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Северянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Лада</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Медовая</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Чижовская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Есенинская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Киффер</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Москвичка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Нарядная Ефимова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Осенняя, Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Отрадненская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Поздние осенние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Жегалова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Зимние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Бессемянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Ника</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Г-322 Летний сорт</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Павловская Осений сорт</a></li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="ah-foottop-list hidden-xs">
+		<li>
+			<a href="#">Алыча</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Подарок Санкт Петербургу</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Боярышник</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Боярышник</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Вишня</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шпанка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Волочаевка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Молодежная</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шоколадница</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Горьковская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Свердловчанк</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Алиса</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Огонёк</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Груша</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Северянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Лада</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Медовая</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Чижовская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Есенинская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Киффер</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Москвичка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Нарядная Ефимова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Осенняя, Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Отрадненская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Поздние осенние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Жегалова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Зимние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Бессемянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Ника</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Г-322 Летний сорт</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Павловская Осений сорт</a></li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="ah-foottop-list hidden-xs">
+		<li>
+			<a href="#">Алыча</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Подарок Санкт Петербургу</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Боярышник</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Боярышник</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Вишня</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шпанка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Волочаевка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Молодежная</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шоколадница</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Горьковская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Свердловчанк</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Алиса</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Огонёк</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Груша</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Северянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Лада</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Медовая</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Чижовская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Есенинская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Киффер</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Москвичка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Нарядная Ефимова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Осенняя, Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Отрадненская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Поздние осенние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Жегалова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Зимние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Бессемянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Ника</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Г-322 Летний сорт</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Павловская Осений сорт</a></li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="ah-foottop-list hidden-sm hidden-xs">
+		<li>
+			<a href="#">Алыча</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Подарок Санкт Петербургу</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Боярышник</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Боярышник</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Вишня</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шпанка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Волочаевка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Молодежная</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шоколадница</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Горьковская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Свердловчанк</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Алиса</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Огонёк</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Груша</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Северянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Лада</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Медовая</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Чижовская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Есенинская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Киффер</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Москвичка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Нарядная Ефимова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Осенняя, Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Отрадненская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Поздние осенние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Жегалова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Зимние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Бессемянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Ника</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Г-322 Летний сорт</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Павловская Осений сорт</a></li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="ah-foottop-list ah-foottop-list1 hidden-sm hidden-xs">
+		<li>
+			<a href="#">Алыча</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Подарок Санкт Петербургу</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Боярышник</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Боярышник</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Вишня</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шпанка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Волочаевка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Молодежная</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Шоколадница</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Горьковская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Свердловчанк</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Алиса</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Огонёк</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Груша</a>
+			<ul class="ah-foottop-sublist">
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Северянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Лада</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Медовая</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Чижовская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Есенинская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Киффер</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Москвичка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Нарядная Ефимова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Осенняя, Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Отрадненская</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Яковлева</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Поздние осенние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Память Жегалова</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Зимние сорта</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Бессемянка</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Ника</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Г-322 Летний сорт</a></li>
+				<li class="ah-foottop-sublist"><a href="#" class="ah-foottop-sublist-link">Павловская Осений сорт</a></li>
+			</ul>
+		</li>
+	</ul>
+</section>
+<section class="ah-footer-all hidden-sm hidden-xs">
     <div class="container">
     	<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

@@ -48,11 +48,12 @@
 			</div>
 			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 pull-right">
 			<?php require_once "include/main-catalog.php"; ?>
+			<?php require_once "include/oursoc.php"; ?>
 			</div>
 		</div>
 	</div>
-	<?php require_once "include/news.php"; ?>
-	<?php require_once "include/testimonials.php"; ?>
+	<?php require_once "include/ourinsta.php"; ?>
+	<?php require_once "include/ourshop.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">
