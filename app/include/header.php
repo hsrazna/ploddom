@@ -155,4 +155,15 @@
 			</div>
 		</div>
 	</div>
+	<div class="az-header-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="az-logo">
+						<img src="img/logo.png" alt="плодовый дом">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </header>
