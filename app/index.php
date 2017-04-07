@@ -41,17 +41,16 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 pull-right">
 				<?php require_once "include/slider.php"; ?>
-
 			</div>
 			<div class="hidden-xs col-sm-4 col-md-4 col-lg-3">
 			<?php require_once "include/sidebar.php"; ?>
 			</div>
 			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 pull-right">
 			<?php require_once "include/main-catalog.php"; ?>
-			<?php require_once "include/oursoc.php"; ?>
 			</div>
 		</div>
 	</div>
+	<?php require_once "include/oursoc.php"; ?>
 	<?php require_once "include/ourinsta.php"; ?>
 	<?php require_once "include/ourshop.php"; ?>
 	<?php require_once "include/footer.php"; ?>
