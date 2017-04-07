@@ -1,4 +1,14 @@
 <div class="ah-sidebarwrapper">
+	<div class="ah-catalog-button hidden-lg hidden-md hidden-sm">
+	<ul class="ah-catbutton-list">
+		<li class="ah-catbutton-list_item">
+			<a href="#" class="ah-catbutton-link">каталог</a>
+			<ul class="ah-catbutton-sublist">
+
+			</ul>
+		</li>
+	</ul>
+	</div>
 	<div class="ah-search hidden-sm hidden-xs">
 		<div class="az-search">
 			<form action="/">
@@ -7,7 +17,7 @@
 			</form>
 		</div>
 	</div>
-	<div class="ah-sidebar">
+	<div class="ah-sidebar hidden-xs">
 		<ul class="ah-menu-list">
 			<li class="ah-menu-list_item">
 				<a href="#" class="ah-menu-listitem-link">Плодовые</a>
@@ -107,7 +117,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="ah-bannerwr">
+	<div class="ah-bannerwr hidden-xs">
 		<div class="ah-banerbox">
 			<a href="#"><img src="img/ah-baner1.jpg" class="img-responsive" alt="baner1"></a>
 		</div>
