@@ -105,17 +105,21 @@
 	$az-phones-width: 205px
 	$az-pl-width: $az-logo-width + $az-phones-width
 	
-	.az-logo, .az-phones, .az-search
+	.az-hb-col1, .az-hb-col2, .az-hb-col3
 		display: inline-block
 		vertical-align: top
-	.az-logo
+	.az-hb-col1
 		width: $az-logo-width
+		padding-top: 10px
 
-	.az-phones
+	.az-hb-col2
+		padding: 0 10px 0 15px
+		margin-top: 20px
+		width: calc(100% - #{$az-pl-width})
+		
+	.az-hb-col3
 		width: $az-phones-width
 
-	.az-search
-		width: calc(100% - #{$az-pl-width})
 
 	/**/
 
