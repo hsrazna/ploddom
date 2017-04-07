@@ -8,7 +8,8 @@
 					<span class="ah-slider-subtitle">для вашего сада</span>
 					<a href="#" class="ah-slider-link">подробнее</a>
 					<div class="ah-slider-imgbox">
-						<img src="img/ah-slider-men.png" alt="men">
+						<img src="img/ah-slider-men.png" class="hidden-xs" alt="men">
+						<img src="img/ah-slider-men320.png" class="hidden-lg hidden-md hidden-sm" alt="men">
 					</div>
 				</div>
 			</div>
@@ -22,7 +23,8 @@
 					<span class="ah-slider-subtitle">для вашего сада</span>
 					<a href="#" class="ah-slider-link">подробнее</a>
 					<div class="ah-slider-imgbox">
-						<img src="img/ah-slider-men.png" alt="men">
+						<img src="img/ah-slider-men.png" class="hidden-xs" alt="men">
+						<img src="img/ah-slider-men320.png" class="hidden-lg hidden-md hidden-sm" alt="men">
 					</div>
 				</div>
 			</div>
@@ -36,7 +38,8 @@
 					<span class="ah-slider-subtitle">для вашего сада</span>
 					<a href="#" class="ah-slider-link">подробнее</a>
 					<div class="ah-slider-imgbox">
-						<img src="img/ah-slider-men.png" alt="men">
+						<img src="img/ah-slider-men.png" class="hidden-xs" alt="men">
+						<img src="img/ah-slider-men320.png" class="hidden-lg hidden-md hidden-sm" alt="men">
 					</div>
 				</div>
 			</div>
