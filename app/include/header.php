@@ -155,29 +155,59 @@
 			</div>
 		</div>
 	</div>
-	<div class="az-header-bottom">
+	<div class="az-header-middle">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="az-header-bottom-wrap">
-						<div class="az-hb-col1">
+					<div class="az-header-middle-wrap">
+						<div class="az-hm-col1">
 							<div class="az-logo">
 								<img src="img/logo.png" alt="плодовый дом">
 							</div>
 						</div>
-						<div class="az-hb-col2">
-							<div class="az-search">
+						<div class="az-hm-col2">
+							<div class="az-search hidden-lg">
 								<form action="/">
 									<input type="text" placeholder="Поиск по каталогу:">
 									<input type="submit" value="найти">
 								</form>
 							</div>
+							<div class="az-hw-wrap hidden-xs hidden-sm hidden-md">
+								<div class="az-hb-col">
+									<div class="az-hb-item style1">доставка<br>по всей россии</div>
+								</div>
+								<div class="az-hb-col">
+									<div class="az-hb-item style2">выращенные<br>в северо-западном регионе</div>
+								</div>
+								<div class="az-hb-col">
+									<div class="az-hb-item style3">только лучшие,<br>плодоносные сорта</div>						
+								</div>
+							</div>
 						</div>
-						<div class="az-hb-col3">
+						<div class="az-hm-col3">
 							<div class="az-phones hidden-xs">
 								<a href="tel:+79118126363" class="az-phone">+7 911 <strong>812-63-63</strong></a>
 								<a href="#" class="az-call-back">Заказать обратный звонок</a>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="az-header-bottom hidden-xs hidden-lg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="az-hw-wrap">
+						<div class="az-hb-col">
+							<div class="az-hb-item style1">доставка<br>по всей россии</div>
+						</div>
+						<div class="az-hb-col">
+							<div class="az-hb-item style2">выращенные<br>в северо-западном регионе</div>
+						</div>
+						<div class="az-hb-col">
+							<div class="az-hb-item style3">только лучшие,<br>плодоносные сорта</div>						
 						</div>
 					</div>
 				</div>
