@@ -66,7 +66,7 @@ li
 	position: absolute
 	top: 100%
 	left: 0px
-	z-index: 3
+	z-index: 6
 	padding: 10px 0
 	li
 		line-height: 30px
@@ -102,7 +102,7 @@ li
 	width: 35px
 	display: inline-block
 	vertical-align: top
-	background: url(../img/az-phone-mobile.png) no-repeat center
+	background: url(../img/phone.svg) no-repeat center//url(../img/az-phone-mobile.png) no-repeat center
 	margin-right: 10px
 
 .az-cart
@@ -129,7 +129,8 @@ li
 	vertical-align: middle
 	height: 30px
 	width: 25px
-	background: url(../img/az-cart.png) no-repeat center
+	background: url(../img/basket.svg) no-repeat center//url(../img/az-cart.png) no-repeat center
+	background-size: 25px 16px
 
 .az-cart2
 	display: inline-block
@@ -213,7 +214,7 @@ li
 		width: 35px
 		height: 100%
 		display: inline-block
-		z-index: 6
+		z-index: 2
 		background: url(../img/az-search.png) no-repeat center
 		
 .az-phones
@@ -248,21 +249,30 @@ li
 		color: #fff
 		text-decoration: none
 
+.az-hw-wrap
+	margin-top: 10px
+
 .az-hb-item
 	font-family: "ArimoBold"
 	font-size: 11px
 	color: #fff
 	line-height: 15px
 	text-transform: uppercase
-	padding-left: 48px
+	// padding-left: 48px
 	display: inline-block
 	text-align: left
 	&.style1
-		background: url(../img/az-russia.png) no-repeat left center
+		padding-left: 56px
+		background: url(../img/russ.svg) no-repeat left center
+		// background: url(../img/az-russia.png) no-repeat left center
 	&.style2
-		background: url(../img/az-temperature.png) no-repeat left center
+		padding-left: 48px
+		background: url(../img/termo.svg) no-repeat left center
+		// background: url(../img/az-temperature.png) no-repeat left center
 	&.style3
-		background: url(../img/az-bowl.png) no-repeat left center
+		padding-left: 48px
+		background: url(../img/fructs.svg) no-repeat left center
+		// background: url(../img/az-bowl.png) no-repeat left center
 
 .az-hb-col
 	width: 33.33%
@@ -500,10 +510,10 @@ li
 	a
 		display: inline-block
 		height: 28px
-		line-height: 26px
+		line-height: 22px
 		width: 105px
 		border-radius: 4px
-		border: 1px solid $az-blue
+		border: 3px solid $az-blue
 		background: $az-blue url(../img/basket.svg) no-repeat 7px center
 		background-size: 17px 11px
 		color: #fff

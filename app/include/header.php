@@ -162,7 +162,7 @@
 					<div class="az-header-middle-wrap">
 						<div class="az-hm-col1">
 							<div class="az-logo">
-								<img src="img/logo.png" alt="плодовый дом">
+								<img src="img/logo_pd.svg" alt="плодовый дом">
 							</div>
 						</div>
 						<div class="az-hm-col2">
