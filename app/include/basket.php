@@ -340,22 +340,24 @@
 			<li id="az-tab4">
 				<div class="az-tab4-wrap az-thank">
 					<span class="az-thank-title">СПАСИБО ЗА ВАШ ЗАКАЗ!</span>
-					<p>Александр, мы рады, что вы выбрали наш магазин! Ваш заказ передан в службу доставки. Как только он будет готов к выдаче, вы получите подтверждение по SMS и уведомление по  электронной почте.</p>
+					<p>Александр, мы рады, что вы выбрали наш магазин!<br> Ваш заказ передан в службу доставки. Как только он будет готов к выдаче, вы получите подтверждение по SMS и уведомление по  электронной почте.</p>
 					<div class="az-address-itog">
 						<div class="row">
-							<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+							<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
 								<div class="az-address">
 									<span class="az-address-title">Адрес магазина:</span>
-									<span class="az-address-text">Москва,<br> ул. Академика Королева 12 офис 99</span><br>
+									<span class="az-address-text">Москва,<br> ул. Академика Королева 12 офис 99</span>
 									<span class="az-address-text">Пн-Вс 10:00 - 22:00</span>
 								</div>
 							</div>
-							<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+							<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
 								<div class="az-itog">
-									<span class="az-itog-sum">Итого</span><br>
-									<span class="az-cupon-sum">Товаров на: 2 950 руб.</span><br>
-									<span class="az-cupon-sum">оставка: 0 руб.</span><br>
-									<span class="az-cupon-sum-end">К оплате: 3 900 руб.</span>
+									<span class="az-itog-sum">Итого</span>
+									<span class="az-cupon-sum">Товаров на: 2 950 руб.</span>
+									<span class="az-cupon-sum-end">К оплате: 19 900 руб.</span>
+									<div>
+										<a href="#" class="az-itog-button">оформить заказ</a>
+									</div>
 								</div>
 							</div>
 						</div>
