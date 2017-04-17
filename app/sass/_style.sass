@@ -627,6 +627,14 @@ li
 		padding: 0 14px
 		text-transform: uppercase
 
+.az-title2
+	font-family: "ArimoBold", sans-serif
+	font-size: 22px
+	color: #333333
+	display: block
+	background: #fff
+	text-transform: uppercase
+	margin: 30px 0 15px
 
 /*basket*/
 .az-blocks-basket
@@ -754,3 +762,72 @@ li
 	&:hover
 		color: #3598db
 		background: #fff
+
+/*tab-delivery*/
+.az-tab-delivery
+	margin: 0 -15px
+	padding: 8px
+	p
+		font-size: 14px
+		color: #000
+		line-height: 16px
+		margin: 0
+	span
+		font-size: 12px
+		color: #000
+		line-height: 14px
+.az-tab-delivery-marg
+	margin-bottom: 15px
+	display: inline-block
+.az-tabcheckbox
+	label
+		margin: 0
+	input[type="radio"]
+		display: none
+	.az-deliv-checkbox
+		border: 3px solid transparent
+		display: table
+		width: 100%
+		cursor: pointer
+		height: 70px
+		>div
+			display: table-cell
+			vertical-align: middle
+			&:nth-child(1)
+				width: 50px
+				padding: 9px
+				span
+					width: 30px
+					height: 30px
+					display: inline-block
+					border: 1px solid #afafaf
+					position: relative
+			&:nth-child(2)
+				width: 91px
+				text-align: center
+				.az-deliv-img
+					width: 91px
+					img
+						width: auto
+						max-width: 100%
+						height: auto
+						max-height: 100%
+			&:nth-child(3)
+				padding: 9px
+				color: #000
+				font-family: "ArimoRegular"
+				font-weight: normal
+				font-size: 18px
+				line-height: 26px
+	input[type="radio"]:checked~.az-deliv-checkbox
+		border: 3px solid #799b1a
+		>div
+			&:nth-child(1)
+				span::before
+					content: ""
+					position: absolute
+					top: 5px
+					left: 5px
+					width: 29px
+					height: 23px
+					background: url(../img/az-checkbox.png) no-repeat center center
