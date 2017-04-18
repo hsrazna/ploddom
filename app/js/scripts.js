@@ -21,6 +21,24 @@ $(function() {
 	});
 
 
+	$('.ah-cardslider').owlCarousel({
+        items:1,
+        loop:false,
+        center:true,
+        margin:0,
+        nav: true,
+        navText:['<span class="arrow-left1"></span>','<span class="arrow-right1"></span>'],
+        URLhashListener:true,
+        autoplayHoverPause:true,
+        startPosition: 'URLHash'
+    });
+
+	$('.selectpicker').selectpicker({
+	  size: 4
+	});
+
+
+
 });
 
 $(function() {
