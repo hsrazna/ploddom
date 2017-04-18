@@ -20,7 +20,12 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-
+	.az-reg-log-title
+		text-align: center
+		width: 100%
+	
+	.az-reg-log-soc
+		text-align: center
 	/**/
 
 /* Small Devices, Tablets */
@@ -37,11 +42,18 @@
 
 	.az-basket
 		margin-left: 0
-
+		padding-left: 7px
+		padding-right: 7px
+	
+	
+	
 	/**/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.az-tabcheckbox .az-deliv-checkbox > div:nth-child(2),
+	.az-tabcheckbox .az-deliv-checkbox > div:nth-child(2) .az-deliv-img
+		width: 70px
 	/**/
 
 /* Custom, iPhone Retina */
@@ -322,6 +334,11 @@
 		br
 			display: none
 
+	
+	/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
 	.az-table-basket
 		max-width: 100%
 		width: 100%
@@ -341,31 +358,23 @@
 				text-align: center
 			td:nth-child(1)
 				display: block
-				width: 140px
-				height: 140px
+				width: 110px
+				height: 110px
 				float: none
 				border: none
 				margin-right: 0
 				margin-top: 0
-				padding: 12px
+				padding: 10px 0
 			td:nth-child(2), td:nth-child(3), td:nth-child(4)
 				display: block
 			td:nth-child(2)
-				font-family: "ArimoRegular"
+				font-family: "ArimoBold"
 				font-size: 16px
 				color: #000
 				margin-top: 0px
 				line-height: 18px
 				text-align: left
 			td:nth-child(3)
-				font-family: "ArimoBold"
-				font-size: 14px
-				color: #80bb38
-				line-height: 18px
-				text-transform: uppercase
-				margin-top: 0px
-				min-width: 100px
-			td:nth-child(4)
 				font-family: "ArimoBold"
 				font-size: 20px
 				color: #2c82c9
@@ -401,13 +410,16 @@
 					top: 0
 					right: 0
 	.az-basket-img
-		border: 1px solid #ededed
-		width: 139px
-		height: 139px
-	/**/
+		width: 110px
+		height: 106px
+		// border: 1px solid #ededed
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px)
+	.az-relative-tab
+		position: relative
+		width: 0
+		height: 100px
+
+	
 	/**/
 
 
@@ -548,13 +560,11 @@
 			th:nth-child(1)
 				text-align: center
 			td:nth-child(1)
-				width: 204px !important
+				width: 110px !important
 			td:nth-child(2)
 				font-size: 16px
 				text-align: center
 			td:nth-child(3)
-				font-size: 16px
-			td:nth-child(4)
 				font-size: 26px
 				strong
 					font-size: 14px
@@ -563,7 +573,7 @@
 				strong
 					font-size: 14px
 			td:nth-last-child(1)
-				min-width: 80px
+				min-width: 60px
 				vertical-align: middle
 				a
 					margin-top: 0px
@@ -571,6 +581,24 @@
 					position: static
 					top: unset
 					right: unset
+
+	.az-relative-tab
+		position: relative
+		width: 100%
+		height: auto
+		font-size: 0
+
+	/*reg-log*/
+	.az-reg-log
+		button
+			font-size: 16px
+
+	.az-label-input
+		>div
+			&:first-child
+				width: 150px
+				text-align: right
+				padding-right: 10px
 	/**/
 
 /* Large Devices, Wide Screens */

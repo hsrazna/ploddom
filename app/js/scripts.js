@@ -78,12 +78,15 @@ $(function() {
 	$('ul.sf-menu').find("ul i").removeClass("fa-angle-down").addClass("fa-angle-right");
 	$('ul.sf-menu').superfish();
 
-	$('.az-tabs>li a').click(function(){
-	    $('.az-tabs>li').removeClass('active');
-	    $(this).parents("li").addClass('active');
-	    $('.az-tab-cont>li').fadeOut(0);
-	    $($(this).attr('href')).fadeIn(0);
-	    return false;
-	});
+	if($('.az-tabs>li a').length>0){
+		$('.az-tabs>li a').click(function(){
+			$('.az-tabs>li').removeClass('active');
+			$(this).parents("li").addClass('active');
+			$('.az-tab-cont>li').fadeOut(0);
+			$($(this).attr('href')).fadeIn(0);
+			return false;
+		});
+	}
+	
 
 });

@@ -3,20 +3,17 @@
 	<span class="az-title-wrap"><span class="az-title">Корзина</span></span>
 	<div class="az-tabs-wrap">
 		<ul class="az-tabs">
-			<li class="az-tab-cond active"><a href="#az-tab1">1. Корзина</a></li>
-			<li class="az-tab-cond"><a href="#az-tab2">2. Контактные данные</a></li>
+			<li class="az-tab-cond"><a href="#az-tab1">1. Корзина</a></li>
+			<li class="az-tab-cond active"><a href="#az-tab2">2. Контактные данные</a></li>
 			<li class="az-tab-cond"><a href="#az-tab3">3. Способы получения</a></li>
 			<li class="az-tab-cond"><a href="#az-tab4">4. Заказ оформлен</a></li>
 		</ul>
 		<ul class="az-tab-cont">
-			<li id="az-tab1">
+			<li id="az-tab1" style="display: none;">
 				<div class="az-tab1-wrap">
-					
 					<table class="az-table-basket">
 						<tr>
-							<th>Товар</th>
-							<th>Описание</th>
-							<th>Доступно</th>
+							<th colspan="2">Товар</th>
 							<th>Цена за единицу</th>
 							<th>Кол-во</th>
 							<th>Итого</th>
@@ -25,117 +22,85 @@
 						<tr>
 							<td>
 								<div class="az-basket-img">
-									<img src="img/novelty1.jpg" alt="photo">
+									<img src="img/ah-card-prod.jpg" alt="photo">
 								</div>
 							</td>
 							<td>
-								<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
+								<span class="az-basket-item-name">Вишня войлочная</span>
 							</td>
-							<td>В наличии</td>
-							<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
+							<td class="clearfix"><span class="hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
 							<td>
 								<span>
 									<div class="ah-cardproduct-formbox az-style2">
 										<form class="ah-cardproduct-form az-style2">
-											<a href="#" class="ah-card-plus">+</a>
-											<input type="text" value="2">
 											<a href="#" class="ah-card-min">-</a>
+											<input type="text" value="2">
+											<a href="#" class="ah-card-plus">+</a>
 										</form>
 									</div>
 								</span>
 							</td>
-							<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
+							<td><span class="hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
 							<td><div class="az-relative-tab"><a href="#"><img src="img/az-del.png" alt="del"></a></div></td>
 						</tr>
 						<tr>
 							<td>
 								<div class="az-basket-img">
-									<img src="img/novelty1.jpg" alt="photo">
+									<img src="img/ah-card-prod.jpg" alt="photo">
 								</div>
 							</td>
 							<td>
-								<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
+								<span class="az-basket-item-name">Вишня войлочная</span>
 							</td>
-							<td>В наличии</td>
-							<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
+							<td class="clearfix"><span class="hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
 							<td>
 								<span>
 									<div class="ah-cardproduct-formbox az-style2">
 										<form class="ah-cardproduct-form az-style2">
-											<a href="#" class="ah-card-plus">+</a>
-											<input type="text" value="2">
 											<a href="#" class="ah-card-min">-</a>
+											<input type="text" value="2">
+											<a href="#" class="ah-card-plus">+</a>
 										</form>
 									</div>
 								</span>
 							</td>
-							<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
+							<td><span class="hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
 							<td><a href="#"><img src="img/az-del.png" alt="del"></a></td>
 						</tr>
 						<tr>
 							<td>
 								<div class="az-basket-img">
-									<img src="img/novelty1.jpg" alt="photo">
+									<img src="img/ah-card-prod.jpg" alt="photo">
 								</div>
 							</td>
 							<td>
-								<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
+								<span class="az-basket-item-name">Вишня войлочная</span>
 							</td>
-							<td>В наличии</td>
-							<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
+							<td class="clearfix"><span class="hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
 							<td>
 								<span>
 									<div class="ah-cardproduct-formbox az-style2">
 										<form class="ah-cardproduct-form az-style2">
-											<a href="#" class="ah-card-plus">+</a>
-											<input type="text" value="2">
 											<a href="#" class="ah-card-min">-</a>
+											<input type="text" value="2">
+											<a href="#" class="ah-card-plus">+</a>
 										</form>
 									</div>
 								</span>
 							</td>
-							<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
+							<td><span class="hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
 							<td><a href="#"><img src="img/az-del.png" alt="del"></a></td>
 						</tr>
 					</table>
-					<div class="az-cupon">
+					<div class="az-address-itog">
 						<div class="row">
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-								<div class="az-cupon-left">
-									<span class="az-cupon-title">Купоны</span>
-									<form action="/" class="az-cupon-form">
-										<div><input type="text"></div>
-										<div><button type="submit">Ok</button></div>
-									</form>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-3 col-lg-push-3">
-								<div class="az-cupon-right">
-									<span class="az-cupon-sum">Итого товаров: 2 950 руб.</span><br>
-									<span class="az-cupon-sum">Итого за доставку: 950 руб.</span><br>
-									<span class="az-cupon-sum-end">Итого: 3 900 руб.</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="az-promo-itog">
-						<div class="row">
-							<div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
-								<div class="az-promo">
-									<span class="az-cupon-title">Промо код</span>
-									<form action="/" class="az-cupon-form">
-										<div><input type="text"></div>
-										<div><button type="submit">применить</button></div>
-									</form>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-2 col-lg-4 col-lg-push-3">
-								<div class="az-itog">
-									<span class="az-itog-sum">Итого</span><br>
-									<span class="az-cupon-sum">Товаров на: 2 950 руб.</span><br>
-									<span class="az-cupon-sum-end">К оплате: 3 900 руб.</span>
-									<div class="az-center">
-										<a href="#" class="az-offer">оформить заказ</a>
+							<div class="col-xs-12 col-sm-12 col-md-push-7 col-md-5 col-lg-push-8 col-lg-4">
+								<div class="az-itog az-mt20">
+									<span class="az-itog-sum">Итого</span>
+									<span class="az-cupon-sum">Товаров на: 2 950 руб.</span>
+									<span class="az-cupon-sum-end">К оплате: 19 900 руб.</span>
+									<div>
+										<a href="#" class="az-itog-button">оформить заказ</a>
 									</div>
 								</div>
 							</div>
@@ -143,18 +108,12 @@
 					</div>
 				</div>
 			</li>
-			<li id="az-tab2" style="display: none;">
+			<li id="az-tab2">
 				<div class="az-tab2-wrap">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="az-reg-log">
 								<span class="az-reg-log-title">Регистрация / <a href="#">вход</a></span>
-								<p>Вы можете зарегистрироваться и получить преимущества постоянного покупателя:</p>
-								<ul>
-									<li>Следить за статусом заказа</li>
-									<li>Накапливать и тратить бонусы</li>
-									<li>Получать информацию о бонусах и скидках</li>
-								</ul>
 								<form action="/">
 									<div class="az-label-input">
 										<div><label for="">Имя:</label></div>
@@ -170,11 +129,11 @@
 									</div>
 									<div class="az-label-input">
 										<div><label for="">Пароль:</label></div>
-										<div><input type="text"></div>
+										<div><input type="password"></div>
 									</div>
 									<div class="az-label-input">
 										<div><label for="">Пароль еще раз:</label></div>
-										<div><input type="text"></div>
+										<div><input type="password"></div>
 									</div>
 									<p class="az-center">Нажав кнопку “Зарегистрироваться и продолжить” вы соглашаетесь с условиями <a href="#">оферты</a></p>
 									<div class="az-reg-log-soc">
@@ -189,7 +148,7 @@
 								</form>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="az-reg-log">
 								<span class="az-reg-log-title">Без Регистрации</span>
 								<form action="/">
