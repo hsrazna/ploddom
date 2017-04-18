@@ -108,6 +108,7 @@
 	max-width: 150px
 	height: 40px
 	background: url(../img/ah-card-icon.png) calc(0% + 7px) center no-repeat #3598db
+	border: 2px solid transparent
 	border-radius: 6px
 	font-family: "RobotoCondensedBold"
 	color: #fff
@@ -118,7 +119,12 @@
 	margin: 0 auto
 	margin-top: 10px
 	&:hover, &:focus
-		color: #fff
+		background: url(../img/basket-blue.svg) calc(0% + 7px) center no-repeat transparent
+		background-size: 22px 14px
+		border: 2px solid #3598db
+		color: #3598db
+		transition: background 0.6s ease 0s
+
 .ah-instruct-text
 	display: block
 	font-family: "ArimoRegular"
