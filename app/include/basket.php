@@ -3,24 +3,15 @@
 	<span class="az-title-wrap"><span class="az-title">Корзина</span></span>
 	<div class="az-tabs-wrap">
 		<ul class="az-tabs">
-			<li class="az-tab-cond"><a href="#az-tab1">1. Корзина</a></li>
+			<li class="az-tab-cond active"><a href="#az-tab1">1. Корзина</a></li>
 			<li class="az-tab-cond"><a href="#az-tab2">2. Контактные данные</a></li>
-			<li class="az-tab-cond active"><a href="#az-tab3">3. Способы получения</a></li>
+			<li class="az-tab-cond"><a href="#az-tab3">3. Способы получения</a></li>
 			<li class="az-tab-cond"><a href="#az-tab4">4. Заказ оформлен</a></li>
 		</ul>
 		<ul class="az-tab-cont">
-			<li id="az-tab1" style="display: none;">
+			<li id="az-tab1">
 				<div class="az-tab1-wrap">
-					<div class="card-title clearfix">
-						<div class="az-region">
-							<span class="az-region-title">Ваш Регион:</span>
-							<select class="selectpicker" data-style="az-btn2" data-width="fit" name="select" id="az-select">
-								<option>Екатеринбург</option>
-								<option>Москва</option>
-							</select>
-							<br><span class="az-description">От выбранного региона зависят доступные способы получения и оплаты товара.</span>
-						</div>
-					</div>
+					
 					<table class="az-table-basket">
 						<tr>
 							<th>Товар</th>
@@ -224,7 +215,7 @@
 					</div>
 				</div>
 			</li>
-			<li id="az-tab3">
+			<li id="az-tab3" style="display: none;">
 				<div class="az-tab3-wrap">
 					<div class="row">
 						<div class="col-xs-12">
@@ -261,7 +252,7 @@
 									<input type="radio" name="radio2" id="az-del21">
 									<label class="az-deliv-checkbox" for="az-del21">
 										<div><span class="az-radio"></span></div>
-										<div><div class="az-deliv-img"><img src="img/az-del1.png" alt=""></div></div>
+										<div><div class="az-deliv-img">&nbsp;</div></div>
 										<div>На месте курьеру</div>
 									</label>
 								</div>
@@ -269,17 +260,31 @@
 									<input type="radio" name="radio2" id="az-del22" checked>
 									<label class="az-deliv-checkbox" for="az-del22">
 										<div><span class="az-radio"></span></div>
-										<div><div class="az-deliv-img"><img src="img/az-del2.png" alt=""></div></div>
-										<div class="style2">В пункте самовывоза наличкой или через банковский терминал</div>
+										<div><div class="az-deliv-img">&nbsp;</div></div>
+										<div class="style2">&nbsp;</div>
 									</label>
 								</div>
 								<div class="az-tabcheckbox">
 									<input type="radio" name="radio2" id="az-del23">
 									<label class="az-deliv-checkbox" for="az-del23">
 										<div><span class="az-radio"></span></div>
-										<div><div class="az-deliv-img"><img src="img/az-del3.png" alt=""></div></div>
-										<div>На сайте после подтверждения заказа</div>
+										<div><div class="az-deliv-img">&nbsp;</div></div>
+										<div>&nbsp;</div>
 									</label>
+								</div>
+							</div>
+							<div class="az-address-itog">
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-md-push-7 col-md-5 col-lg-push-8 col-lg-4">
+										<div class="az-itog">
+											<span class="az-itog-sum">Итого</span>
+											<span class="az-cupon-sum">Товаров на: 2 950 руб.</span>
+											<span class="az-cupon-sum-end">К оплате: 19 900 руб.</span>
+											<div>
+												<a href="#" class="az-itog-button">оформить заказ</a>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
