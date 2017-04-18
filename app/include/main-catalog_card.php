@@ -25,7 +25,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="ah-cardslider-dotwrapp">
+		<div class="ah-cardslider-dotwrapp hidden-xs">
 			<a class="ah-cardslider-dot" href="#zero">
 				<img src="img/ah-card-prod.jpg" class="img-responsive" alt="image1">
 			</a>
@@ -39,10 +39,10 @@
 	</div>
 	<div class="ah-cardform-wrapp">
 		<form class="ah-cardform">
-			<span class="ah-cardform-span">Вишня войлочная</span>
+			<span class="ah-cardform-span">Вишня<br class="hidden-lg hidden-md hidden-xs"> войлочная</span>
 			<div class="ah-selektbox">
 				<div class="ah-selektbox-l">
-					<span class="ah-selektbox-span">Выберите возраст:</span>
+					<span class="ah-selektbox-span">Выберите<br class="hidden-lg hidden-md hidden-xs"> возраст:</span>
 				</div>
 				<div class="ah-selektbox-r">
 					<select class="selectpicker">
