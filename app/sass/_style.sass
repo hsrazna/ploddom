@@ -931,9 +931,12 @@ li
 		margin: 0 3px
 
 .az-table-basket
-	width: calc(100% + 16px)
-	margin-right: -8px
-	margin-left: -8px
+	width: 100%
+	max-width: 450px
+	margin: 20px auto 0
+	// width: calc(100% + 16px)
+	// margin-right: -8px
+	// margin-left: -8px
 	position: relative
 	tr
 		border-top: 1px solid #e9e9e9
@@ -956,19 +959,12 @@ li
 		td:nth-child(2), td:nth-child(3), td:nth-child(4)
 			display: block
 		td:nth-child(2)
-			font-family: "ArimoRegular"
+			font-family: "ArimoBold"
 			font-size: 16px
 			color: #000
 			margin-top: 6px
 			line-height: 18px
 		td:nth-child(3)
-			font-family: "ArimoBold"
-			font-size: 16px
-			color: #80bb38
-			line-height: 18px
-			text-transform: uppercase
-			margin-top: 10px
-		td:nth-child(4)
 			font-family: "ArimoBold"
 			font-size: 26px
 			color: #2c82c9
@@ -977,9 +973,13 @@ li
 				font-size: 12px
 			strong
 				font-size: 14px
-		td:nth-last-child(2), td:nth-last-child(3)
+				font-weight: normal
+		td:nth-last-child(2)
 			display: inline-block
-			width: 49%
+			width: 58%
+		td:nth-last-child(3)
+			display: inline-block
+			width: 40%
 		td:nth-last-child(3)
 			text-align: left
 			margin-top: 11px
@@ -997,6 +997,7 @@ li
 				font-size: 12px
 			strong
 				font-size: 14px
+				font-weight: normal
 		td:nth-last-child(1)
 			a
 				position: absolute
@@ -1043,12 +1044,15 @@ li
 	line-height: 18px
 	background: #7d7d7d
 	text-align: center
+	&:hover
+		color: #fff
+		background: #6aac1c
 
 .az-basket-img
 	width: 99px
 	height: 99px
 	text-align: center
-	padding: 5px
+	// padding: 5px
 	img
 		max-height: 100%
 		height: auto
