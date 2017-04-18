@@ -3,13 +3,13 @@
 	<span class="az-title-wrap"><span class="az-title">Корзина</span></span>
 	<div class="az-tabs-wrap">
 		<ul class="az-tabs">
-			<li class="az-tab-cond active"><a href="#az-tab1">1. Корзина</a></li>
-			<li class="az-tab-cond"><a href="#az-tab2">2. Контактные данные</a></li>
+			<li class="az-tab-cond"><a href="#az-tab1">1. Корзина</a></li>
+			<li class="az-tab-cond active"><a href="#az-tab2">2. Контактные данные</a></li>
 			<li class="az-tab-cond"><a href="#az-tab3">3. Способы получения</a></li>
 			<li class="az-tab-cond"><a href="#az-tab4">4. Заказ оформлен</a></li>
 		</ul>
 		<ul class="az-tab-cont">
-			<li id="az-tab1">
+			<li id="az-tab1" style="display: none;">
 				<div class="az-tab1-wrap">
 					<table class="az-table-basket">
 						<tr>
@@ -95,7 +95,7 @@
 					<div class="az-address-itog">
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-push-7 col-md-5 col-lg-push-8 col-lg-4">
-								<div class="az-itog">
+								<div class="az-itog az-mt20">
 									<span class="az-itog-sum">Итого</span>
 									<span class="az-cupon-sum">Товаров на: 2 950 руб.</span>
 									<span class="az-cupon-sum-end">К оплате: 19 900 руб.</span>
@@ -108,18 +108,12 @@
 					</div>
 				</div>
 			</li>
-			<li id="az-tab2" style="display: none;">
+			<li id="az-tab2">
 				<div class="az-tab2-wrap">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="az-reg-log">
 								<span class="az-reg-log-title">Регистрация / <a href="#">вход</a></span>
-								<p>Вы можете зарегистрироваться и получить преимущества постоянного покупателя:</p>
-								<ul>
-									<li>Следить за статусом заказа</li>
-									<li>Накапливать и тратить бонусы</li>
-									<li>Получать информацию о бонусах и скидках</li>
-								</ul>
 								<form action="/">
 									<div class="az-label-input">
 										<div><label for="">Имя:</label></div>
@@ -135,11 +129,11 @@
 									</div>
 									<div class="az-label-input">
 										<div><label for="">Пароль:</label></div>
-										<div><input type="text"></div>
+										<div><input type="password"></div>
 									</div>
 									<div class="az-label-input">
 										<div><label for="">Пароль еще раз:</label></div>
-										<div><input type="text"></div>
+										<div><input type="password"></div>
 									</div>
 									<p class="az-center">Нажав кнопку “Зарегистрироваться и продолжить” вы соглашаетесь с условиями <a href="#">оферты</a></p>
 									<div class="az-reg-log-soc">
@@ -154,7 +148,7 @@
 								</form>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="az-reg-log">
 								<span class="az-reg-log-title">Без Регистрации</span>
 								<form action="/">

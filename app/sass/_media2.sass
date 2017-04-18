@@ -20,7 +20,12 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-
+	.az-reg-log-title
+		text-align: center
+		width: 100%
+	
+	.az-reg-log-soc
+		text-align: center
 	/**/
 
 /* Small Devices, Tablets */
@@ -40,10 +45,15 @@
 		padding-left: 7px
 		padding-right: 7px
 	
+	
+	
 	/**/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.az-tabcheckbox .az-deliv-checkbox > div:nth-child(2),
+	.az-tabcheckbox .az-deliv-checkbox > div:nth-child(2) .az-deliv-img
+		width: 70px
 	/**/
 
 /* Custom, iPhone Retina */
@@ -408,6 +418,8 @@
 		position: relative
 		width: 0
 		height: 100px
+
+	
 	/**/
 
 
@@ -575,6 +587,18 @@
 		width: 100%
 		height: auto
 		font-size: 0
+
+	/*reg-log*/
+	.az-reg-log
+		button
+			font-size: 16px
+
+	.az-label-input
+		>div
+			&:first-child
+				width: 150px
+				text-align: right
+				padding-right: 10px
 	/**/
 
 /* Large Devices, Wide Screens */
