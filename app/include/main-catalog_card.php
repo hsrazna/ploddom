@@ -7,7 +7,7 @@
 			<li><a>Черешня</a></li>
 		</ul>
 	</div>
-	<div class="ah-cardslider-wrapp">
+	<div class="ah-cardslider-wrapp hidden-xs">
 		<div class="ah-cardslider">
 			<div class="item" data-hash="zero">
 				<div class="ah-cardslider-imgbox">
@@ -25,7 +25,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="ah-cardslider-dotwrapp hidden-xs">
+		<div class="ah-cardslider-dotwrapp">
 			<a class="ah-cardslider-dot" href="#zero">
 				<img src="img/ah-card-prod.jpg" class="img-responsive" alt="image1">
 			</a>
@@ -35,6 +35,11 @@
 			<a class="ah-cardslider-dot" href="#two">
 				<img src="img/ah-card-prod.jpg" class="img-responsive" alt="image3">
 			</a>
+		</div>
+	</div>
+	<div class="ah-cardslider-wrapp hidden-lg hidden-md hidden-sm">
+		<div class="ah-cardslider-imgbox">
+			<img src="img/ah-card-prod.jpg" class="img-responsive" alt="image1">
 		</div>
 	</div>
 	<div class="ah-cardform-wrapp">
