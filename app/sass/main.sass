@@ -17,10 +17,13 @@
 .ah-cardslider-wrapp
 	display: inline-block
 	max-width: 360px
+	margin-top: 4px
 .ah-cardform-wrapp
 	display: inline-block
+	vertical-align: top
+	margin-top: 4px
+	padding-left: 20px
 .ah-cardform
-	margin-bottom: 100px
 	input[type="text"]
 		color: #5c5f62
 		font-family: "PFBeauSansPro-Reg"
@@ -39,7 +42,7 @@
 	background: #fff !important
 	outline: none !important
 	.btn
-		padding: 10px 12px !important
+		padding: 9px 12px !important
 		border: 1px solid #bababa !important
 		border-radius: 6px !important
 		box-shadow: inset 2.5px 4.3px 5px rgba(0, 0, 0, 0.3) !important
@@ -66,9 +69,59 @@
 	.dropdown-toggle
 		&:focus
 			outline: none !important
-	
-
-
+.ah-cardform-span
+	display: block
+	font-family: "ArimoBold"
+	color: #000
+	font-size: 32px
+	line-height: 22px
+	margin-bottom: 38px
+.ah-selektbox-span
+	display: inline-block
+	font-family: "RobotoCondensedRegular"
+	color: #000
+	font-size: 14px
+	line-height: 15px
+	margin-right: 5px
+.ah-selektbox
+	display: table
+	margin-bottom: 20px
+.ah-selektbox-l, .ah-selektbox-r
+	display: table-cell
+	vertical-align: middle
+.ah-cardprice
+	display: block
+	font-family: "RobotoCondensedRegular"
+	color: #3598db
+	font-size: 55px
+	line-height: 45px
+	span
+		font-family: "RobotoCondensedRegular"
+		font-size: 34px
+		line-height: 45px
+.ah-cardprice-link
+	display: block
+	max-width: 150px
+	height: 40px
+	background: url(../img/ah-card-icon.png) calc(0% + 7px) center no-repeat #3598db
+	border-radius: 6px
+	font-family: "RobotoCondensedBold"
+	color: #fff
+	font-size: 16px
+	line-height: 40px
+	text-transform: uppercase
+	text-align: center
+	margin-top: 10px
+	&:hover, &:focus
+		color: #fff
+.ah-instruct-text
+	display: block
+	font-family: "ArimoRegular"
+	color: #000
+	font-size: 14px
+	line-height: 22px
+.ah-h2span
+	background: #fff
 
 /* card-slider*/
 .ah-cardslider-dotwrapp
@@ -88,7 +141,7 @@
 	margin-right: 0px
 .ah-cardslider
 	position: relative
-	margin-top: 15px
+	// margin-top: 4px
 	.item
 		height: 360px
 .ah-cardslider-imgbox
