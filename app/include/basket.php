@@ -5,8 +5,8 @@
 		<ul class="az-tabs">
 			<li class="az-tab-cond"><a href="#az-tab1">1. Корзина</a></li>
 			<li class="az-tab-cond"><a href="#az-tab2">2. Контактные данные</a></li>
-			<li class="az-tab-cond"><a href="#az-tab3">3. Способы получения</a></li>
-			<li class="az-tab-cond active"><a href="#az-tab4">4. Заказ оформлен</a></li>
+			<li class="az-tab-cond active"><a href="#az-tab3">3. Способы получения</a></li>
+			<li class="az-tab-cond"><a href="#az-tab4">4. Заказ оформлен</a></li>
 		</ul>
 		<ul class="az-tab-cont">
 			<li id="az-tab1" style="display: none;">
@@ -224,138 +224,89 @@
 					</div>
 				</div>
 			</li>
-			<li id="az-tab3" style="display: none;">
+			<li id="az-tab3">
 				<div class="az-tab3-wrap">
 					<div class="row">
 						<div class="col-xs-12">
+							<h3 class="az-title2">Способы оплаты</h3>
 							<div class="az-tab-delivery">
-								<p>Ориентировочная дата доставки этим перевозчиком со Вторника 11 Октября 2017 по Четверг 13 Октября 2017*</p>
-								<span class="az-tab-delivery-marg">*после подтверждения заказа</span>
 								<div class="az-tabcheckbox">
 									<input type="radio" name="radio1" id="az-del1">
 									<label class="az-deliv-checkbox" for="az-del1">
 										<div><span class="az-radio"></span></div>
-										<div><div class="az-deliv-img"><img src="img/az-del1.png" alt=""><img src="img/az-del1-checked.png" alt=""></div></div>
-										<div>Курьер (Москва, в пределах МКАД)<br>Доставка от 1 до 3 дней в пределах МКАД Самый быстрый</div>
+										<div><div class="az-deliv-img"><img src="img/az-del1.png" alt=""></div></div>
+										<div>На месте курьеру</div>
 									</label>
 								</div>
 								<div class="az-tabcheckbox">
 									<input type="radio" name="radio1" id="az-del2" checked>
 									<label class="az-deliv-checkbox" for="az-del2">
 										<div><span class="az-radio"></span></div>
-										<div><div class="az-deliv-img"><img src="img/az-del2.png" alt=""><img src="img/az-del2-checked.png" alt=""></div></div>
-										<div class="style2">Почта России</div>
+										<div><div class="az-deliv-img"><img src="img/az-del2.png" alt=""></div></div>
+										<div class="style2">В пункте самовывоза наличкой или через банковский терминал</div>
 									</label>
 								</div>
 								<div class="az-tabcheckbox">
 									<input type="radio" name="radio1" id="az-del3">
 									<label class="az-deliv-checkbox" for="az-del3">
 										<div><span class="az-radio"></span></div>
-										<div><div class="az-deliv-img"><img src="img/az-del3.png" alt=""><img src="img/az-del3-checked.png" alt=""></div></div>
-										<div>Самовывоз (Москва метро “Динамо”)</div>
+										<div><div class="az-deliv-img"><img src="img/az-del3.png" alt=""></div></div>
+										<div>На сайте после подтверждения заказа</div>
 									</label>
 								</div>
 							</div>
-							<div class="az-tab-comment clearfix">
-								<div class="pull-left">
-									<span>Оставить комментарий к заказу?</span>
+							<h3 class="az-title2">Способы доставки</h3>
+							<div class="az-tab-delivery">
+								<div class="az-tabcheckbox">
+									<input type="radio" name="radio2" id="az-del21">
+									<label class="az-deliv-checkbox" for="az-del21">
+										<div><span class="az-radio"></span></div>
+										<div><div class="az-deliv-img"><img src="img/az-del1.png" alt=""></div></div>
+										<div>На месте курьеру</div>
+									</label>
 								</div>
-								<div class="pull-right">
-									<textarea name="" id="" cols="30" rows="10" placeholder="Введите такст комментария"></textarea>
+								<div class="az-tabcheckbox">
+									<input type="radio" name="radio2" id="az-del22" checked>
+									<label class="az-deliv-checkbox" for="az-del22">
+										<div><span class="az-radio"></span></div>
+										<div><div class="az-deliv-img"><img src="img/az-del2.png" alt=""></div></div>
+										<div class="style2">В пункте самовывоза наличкой или через банковский терминал</div>
+									</label>
 								</div>
-							</div>
-							<div class="az-pay">
-								<div class="row">
-									<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-										<div class="az-pay-left">
-											<span class="az-title-wrap"><span class="az-title">Способы оплаты</span></span>
-											<div class="az-pay-radio-section">
-												<span>Оплата при получении</span>
-												<div class="az-pay-radio">
-													<input type="radio" name="radio2" id="az-pay1">
-													<label class="az-deliv-checkbox" for="az-pay1">
-														<div><span class="az-pay-radio-span"></span></div>
-														<div><div class="az-deliv-img"><img src="img/az-pay-radio1.png" alt=""><img src="img/az-pay-radio1-checked.png" alt=""></div></div>
-														<div>Наличными</div>
-													</label>
-												</div>
-												<div class="az-pay-radio">
-													<input type="radio" name="radio2" id="az-pay2">
-													<label class="az-deliv-checkbox" for="az-pay2">
-														<div><span class="az-pay-radio-span"></span></div>
-														<div><div class="az-deliv-img"><img src="img/az-pay-radio2.png" alt=""><img src="img/az-pay-radio2-checked.png" alt=""></div></div>
-														<div>Банковской картой</div>
-													</label>
-												</div>
-											</div>
-											<div class="az-pay-radio-section">
-												<span>Оплата он-лайн</span>
-												<div class="az-pay-radio">
-													<input type="radio" name="radio2" id="az-pay3">
-													<label class="az-deliv-checkbox" for="az-pay3">
-														<div><span class="az-pay-radio-span"></span></div>
-														<div><div class="az-deliv-img"><img src="img/az-pay-radio3.png" alt=""><img src="img/az-pay-radio3-checked.png" alt=""></div></div>
-														<div></div>
-													</label>
-												</div>
-												<div class="az-pay-radio">
-													<input type="radio" name="radio2" id="az-pay4">
-													<label class="az-deliv-checkbox" for="az-pay4">
-														<div><span class="az-pay-radio-span"></span></div>
-														<div><div class="az-deliv-img"><img src="img/az-pay-radio2.png" alt=""><img src="img/az-pay-radio2-checked.png" alt=""></div></div>
-														<div>Банковской картой</div>
-													</label>
-												</div>
-											</div>
-											<div class="az-pay-radio-section">
-												<span>Безналичный расчет</span>
-												<div class="az-pay-radio">
-													<input type="radio" name="radio2" id="az-pay5">
-													<label class="az-deliv-checkbox" for="az-pay5">
-														<div><span class="az-pay-radio-span"></span></div>
-														<div><div class="az-deliv-img"><img src="img/az-pay-radio4.png" alt=""><img src="img/az-pay-radio4-checked.png" alt=""></div></div>
-														<div>Получить счет на оплату</div>
-													</label>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1 col-lg-4 col-lg-push-2">
-										<div class="az-itog style2">
-											<span class="az-itog-sum">Итого</span><br>
-											<span class="az-cupon-sum">Товаров на: 2 950 руб.</span><br>
-											<span class="az-cupon-sum-end">К оплате: 3 900 руб.</span>
-											<div class="az-center">
-												<a href="#" class="az-offer">оформить заказ</a>
-											</div>
-										</div>
-									</div>
+								<div class="az-tabcheckbox">
+									<input type="radio" name="radio2" id="az-del23">
+									<label class="az-deliv-checkbox" for="az-del23">
+										<div><span class="az-radio"></span></div>
+										<div><div class="az-deliv-img"><img src="img/az-del3.png" alt=""></div></div>
+										<div>На сайте после подтверждения заказа</div>
+									</label>
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</li>
-			<li id="az-tab4">
+			<li id="az-tab4" style="display: none;">
 				<div class="az-tab4-wrap az-thank">
 					<span class="az-thank-title">СПАСИБО ЗА ВАШ ЗАКАЗ!</span>
-					<p>Александр, мы рады, что вы выбрали наш магазин! Ваш заказ передан в службу доставки. Как только он будет готов к выдаче, вы получите подтверждение по SMS и уведомление по  электронной почте.</p>
+					<p>Александр, мы рады, что вы выбрали наш магазин!<br> Ваш заказ передан в службу доставки. Как только он будет готов к выдаче, вы получите подтверждение по SMS и уведомление по  электронной почте.</p>
 					<div class="az-address-itog">
 						<div class="row">
-							<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+							<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
 								<div class="az-address">
 									<span class="az-address-title">Адрес магазина:</span>
-									<span class="az-address-text">Москва,<br> ул. Академика Королева 12 офис 99</span><br>
+									<span class="az-address-text">Москва,<br> ул. Академика Королева 12 офис 99</span>
 									<span class="az-address-text">Пн-Вс 10:00 - 22:00</span>
 								</div>
 							</div>
-							<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+							<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
 								<div class="az-itog">
-									<span class="az-itog-sum">Итого</span><br>
-									<span class="az-cupon-sum">Товаров на: 2 950 руб.</span><br>
-									<span class="az-cupon-sum">оставка: 0 руб.</span><br>
-									<span class="az-cupon-sum-end">К оплате: 3 900 руб.</span>
+									<span class="az-itog-sum">Итого</span>
+									<span class="az-cupon-sum">Товаров на: 2 950 руб.</span>
+									<span class="az-cupon-sum-end">К оплате: 19 900 руб.</span>
+									<div>
+										<a href="#" class="az-itog-button">оформить заказ</a>
+									</div>
 								</div>
 							</div>
 						</div>
