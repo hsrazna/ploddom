@@ -39,15 +39,42 @@
 	</div>
 	<div class="ah-cardform-wrapp">
 		<form class="ah-cardform">
-			<select class="selectpicker">
-				<option>4 года</option>
-				<option>3 года</option>
-				<option>2 года</option>
-			</select>
+			<span class="ah-cardform-span">Вишня войлочная</span>
+			<div class="ah-selektbox">
+				<div class="ah-selektbox-l">
+					<span class="ah-selektbox-span">Выберите возраст:</span>
+				</div>
+				<div class="ah-selektbox-r">
+					<select class="selectpicker">
+						<option>4 года</option>
+						<option>3 года</option>
+						<option>2 года</option>
+					</select>
+				</div>
+			</div>
 		</form>
+		<div class="ah-selektbox">
+			<div class="ah-selektbox-l">
+				<span class="ah-selektbox-span">Количество:</span>
+			</div>
+			<div class="ah-selektbox-r">
+				<div class="ah-cardproduct-formbox az-style2">
+					<form class="ah-cardproduct-form az-style2">
+						<a href="#" class="ah-card-plus">+</a>
+						<input type="text" value="1">
+						<a href="#" class="ah-card-min">-</a>
+					</form>
+				</div>
+			</div>
+		</div>
+		<span class="ah-cardprice">350 <span>руб.</span></span>
+		<a href="#" class="ah-cardprice-link">в корзину</a>
 	</div>
 </div>
-
+<div class="ah-instruct">
+	<h2><span class="ah-h2span">Описание сорта</span></h2>
+	<p class="ah-instruct-text">В нашем питамнике представлены саженцы 65 сортов яблони. Каждый из них представлен на нашем сайте, Вы можете выбрать яблоню для Вашего сада самостоятельно, а можете обратиться к нам за помощью, мы не только ответим на все вопросы, но и дадим полезные рекомендации по посадке и уходу.</p>
+</div>
 <div class="az-popular-outer">
 	<section class="az-popular">
 		<h2><span>Самое популярное</span></h2>
