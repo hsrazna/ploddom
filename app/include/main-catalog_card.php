@@ -87,7 +87,8 @@
 			<div class="az-pw-col">
 				<div class="az-pw-item">
 					<div class="az-pw-item-img-box">
-						<img src="img/cat-img2.jpg" alt="популярное">
+						<div class="ah-catalog-imgbox" style="background: url(img/cat-img2.jpg) center center no-repeat; background-size: cover;"></div>
+						<!-- <img src="img/cat-img2.jpg" alt="популярное"> -->
 					</div>
 					<div class="az-pw-item-title">Яблоня</div>
 					<div class="az-pw-item-text">Вологодское зимнее</div>
@@ -99,7 +100,8 @@
 			<div class="az-pw-col">
 				<div class="az-pw-item">
 					<div class="az-pw-item-img-box">
-						<img src="img/cat-img2.jpg" alt="популярное">
+						<div class="ah-catalog-imgbox" style="background: url(img/cat-img2.jpg) center center no-repeat; background-size: cover;"></div>
+						<!-- <img src="img/cat-img2.jpg" alt="популярное"> -->
 					</div>
 					<div class="az-pw-item-title">Яблоня</div>
 					<div class="az-pw-item-text">Вологодское зимнее</div>
@@ -111,7 +113,8 @@
 			<div class="az-pw-col">
 				<div class="az-pw-item">
 					<div class="az-pw-item-img-box">
-						<img src="img/cat-img2.jpg" alt="популярное">
+						<div class="ah-catalog-imgbox" style="background: url(img/cat-img2.jpg) center center no-repeat; background-size: cover;"></div>
+						<!-- <img src="img/cat-img2.jpg" alt="популярное"> -->
 					</div>
 					<div class="az-pw-item-title">Яблоня</div>
 					<div class="az-pw-item-text">Вологодское зимнее</div>
@@ -123,7 +126,8 @@
 			<div class="az-pw-col">
 				<div class="az-pw-item">
 					<div class="az-pw-item-img-box">
-						<img src="img/cat-img2.jpg" alt="популярное">
+						<div class="ah-catalog-imgbox" style="background: url(img/cat-img2.jpg) center center no-repeat; background-size: cover;"></div>
+						<!-- <img src="img/cat-img2.jpg" alt="популярное"> -->
 					</div>
 					<div class="az-pw-item-title">Яблоня</div>
 					<div class="az-pw-item-text">Вологодское зимнее</div>
@@ -135,7 +139,8 @@
 			<div class="az-pw-col">
 				<div class="az-pw-item">
 					<div class="az-pw-item-img-box">
-						<img src="img/cat-img2.jpg" alt="популярное">
+						<div class="ah-catalog-imgbox" style="background: url(img/cat-img2.jpg) center center no-repeat; background-size: cover;"></div>
+						<!-- <img src="img/cat-img2.jpg" alt="популярное"> -->
 					</div>
 					<div class="az-pw-item-title">Яблоня</div>
 					<div class="az-pw-item-text">Вологодское зимнее</div>
@@ -147,7 +152,8 @@
 			<div class="az-pw-col">
 				<div class="az-pw-item">
 					<div class="az-pw-item-img-box">
-						<img src="img/cat-img2.jpg" alt="популярное">
+						<div class="ah-catalog-imgbox" style="background: url(img/cat-img2.jpg) center center no-repeat; background-size: cover;"></div>
+						<!-- <img src="img/cat-img2.jpg" alt="популярное"> -->
 					</div>
 					<div class="az-pw-item-title">Яблоня</div>
 					<div class="az-pw-item-text">Вологодское зимнее</div>
@@ -159,7 +165,8 @@
 			<div class="az-pw-col hidden-xs">
 				<div class="az-pw-item">
 					<div class="az-pw-item-img-box">
-						<img src="img/cat-img2.jpg" alt="популярное">
+						<div class="ah-catalog-imgbox" style="background: url(img/cat-img2.jpg) center center no-repeat; background-size: cover;"></div>
+						<!-- <img src="img/cat-img2.jpg" alt="популярное"> -->
 					</div>
 					<div class="az-pw-item-title">Яблоня</div>
 					<div class="az-pw-item-text">Вологодское зимнее</div>
@@ -171,7 +178,8 @@
 			<div class="az-pw-col hidden-xs">
 				<div class="az-pw-item">
 					<div class="az-pw-item-img-box">
-						<img src="img/cat-img2.jpg" alt="популярное">
+						<div class="ah-catalog-imgbox" style="background: url(img/cat-img2.jpg) center center no-repeat; background-size: cover;"></div>
+						<!-- <img src="img/cat-img2.jpg" alt="популярное"> -->
 					</div>
 					<div class="az-pw-item-title">Яблоня</div>
 					<div class="az-pw-item-text">Вологодское зимнее</div>
@@ -183,7 +191,8 @@
 			<div class="az-pw-col hidden-xs">
 				<div class="az-pw-item">
 					<div class="az-pw-item-img-box">
-						<img src="img/cat-img2.jpg" alt="популярное">
+						<div class="ah-catalog-imgbox" style="background: url(img/cat-img2.jpg) center center no-repeat; background-size: cover;"></div>
+						<!-- <img src="img/cat-img2.jpg" alt="популярное"> -->
 					</div>
 					<div class="az-pw-item-title">Яблоня</div>
 					<div class="az-pw-item-text">Вологодское зимнее</div>
